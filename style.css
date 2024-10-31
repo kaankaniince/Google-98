@@ -1,4 +1,3 @@
-/* Genel Sayfa Stilleri */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     align-items: center;
   }
   
-  /* Arama Kutusu Container */
   .search-container {
     background-color: #eeeeee;
     text-align: center;
@@ -24,7 +22,6 @@ body {
     padding: 2px;
   }
   
-  /* Ana İçerik Grid */
   .content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -34,7 +31,6 @@ body {
     font-size: 14px;
   }
   
-  /* Sol, Orta ve Sağ Bölümler */
   .box {
     text-align: center;
   }
@@ -51,7 +47,6 @@ body {
     background-color: #62b3aa;
   }
   
-  /* Link Stilleri */
   a {
     color: #0000ee;
     line-height: 1.5;
@@ -61,13 +56,11 @@ body {
     color: #551a8b;
   }
   
-  /* Email Abonelik Formu */
   .subscribe-form input[type="text"] {
     margin: 5px 0;
     padding: 2px;
   }
   
-  /* Footer */
   footer {
     margin-top: 10px;
     font-size: small;
