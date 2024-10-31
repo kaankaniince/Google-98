@@ -1,0 +1,75 @@
+/* Genel Sayfa Stilleri */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Arama Kutusu Container */
+  .search-container {
+    background-color: #eeeeee;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 100%;
+    max-width: 82.3%;
+  }
+  
+  .search-container input[type="text"] {
+    width: 300px;
+    margin: 3px 0;
+    padding: 2px;
+  }
+  
+  /* Ana İçerik Grid */
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    width: 100%;
+    max-width: 82.3%;
+    font-size: 14px;
+  }
+  
+  /* Sol, Orta ve Sağ Bölümler */
+  .box {
+    text-align: center;
+  }
+  
+  .left-box {
+    background-color: #7ee5da;
+  }
+  
+  .center-box {
+    background-color: #70ccc2;
+  }
+  
+  .right-box {
+    background-color: #62b3aa;
+  }
+  
+  /* Link Stilleri */
+  a {
+    color: #0000ee;
+    line-height: 1.5;
+  }
+  
+  a:visited {
+    color: #551a8b;
+  }
+  
+  /* Email Abonelik Formu */
+  .subscribe-form input[type="text"] {
+    margin: 5px 0;
+    padding: 2px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 10px;
+    font-size: small;
+  }
+  
