@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google!</title>
+    <style>
+      /* Genel Sayfa Stilleri */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Logo Alanı */
+
+      /* Arama Kutusu Container */
+      .search-container {
+        background-color: #eeeeee;
+        text-align: center;
+        margin-bottom: 3px;
+        width: 100%;
+        max-width: 82.3%;
+      }
+
+      .search-container input[type="text"] {
+        width: 300px;
+        margin: 3px 0;
+        padding: 2px;
+      }
+
+      /* Ana İçerik Grid */
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2px;
+        width: 100%;
+        max-width: 82.3%;
+        font-size: 14px;
+      }
+
+      /* Sol, Orta ve Sağ Bölümler */
+      .box {
+        text-align: center;
+      }
+
+      .left-box {
+        background-color: #7ee5da;
+      }
+
+      .center-box {
+        background-color: #70ccc2;
+      }
+
+      .right-box {
+        background-color: #62b3aa;
+      }
+
+      /* Link Stilleri */
+      a {
+        color: #0000ee;
+        line-height: 1.5;
+      }
+
+      a:visited {
+        color: #551a8b;
+      }
+
+      /* Email Abonelik Formu */
+      .subscribe-form input[type="text"] {
+        margin: 5px 0;
+        padding: 2px;
+      }
+
+      /* Footer */
+      footer {
+        margin-top: 10px;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Logo -->
+    <div class="logo">
+      <img
+        src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg"
+        alt="Google Beta Logo"
+        width="351"
+        height="113"
+      />
+    </div>
+
+    <!-- Arama Bölümü -->
+    <div class="search-container">
+      <p>Search the web using Google!</p>
+      <input type="text" name="search" />
+      <br />
+      <input type="submit" value="Google Search" />
+      <input type="submit" value="I'm feeling lucky" />
+    </div>
+
+    <!-- Ana İçerik Grid -->
+    <div class="content-grid">
+      <div class="box left-box">
+        <p style="margin: 0; padding: 0; margin-top: 15px">Special Searches</p>
+        <a href="https://web.stanford.edu">Stanford Search</a>
+        <br />
+        <a href="https://www.linux.com">Linux Search</a>
+      </div>
+
+      <!-- Orta Bölüm -->
+      <div class="box center-box">
+        <a href="help.html">Help!</a>
+        <br />
+        <a href="about.html">About Google!</a>
+        <br />
+        <a href="company.html">Company Info</a>
+        <br />
+        <a href="logos.html">Google! Logos</a>
+      </div>
+
+      <!-- Sağ Bölüm -->
+      <div class="box right-box">
+        <p>
+          Get Google!<br />
+          updates monthly:
+        </p>
+        <div class="subscribe-form">
+          <input type="text" name="emailaddr" placeholder="your e-mail" />
+          <br />
+          <input type="submit" value="Subscribe" />
+          <a href="archive.html">Archive</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Copyright ©1998 Google Inc.</p>
+    </footer>
+  </body>
+</html>
